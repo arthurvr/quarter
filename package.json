@@ -1,0 +1,35 @@
+{
+  "name": "quarter",
+  "version": "0.0.0",
+  "description": "Get the quarter of the year a date is in",
+  "license": "MIT",
+  "repository": "arthurvr/quarter",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "today",
+    "month",
+    "quarter",
+    "date",
+    "calendar",
+    "4",
+    "year",
+    "time",
+    "timestamp"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
