@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var quarter = require('./');
+import test from 'ava';
+import quarter from './';
 
-test('should get the quarter of the year', function (t) {
+test('should get the quarter of the year', t => {
 	t.is(quarter(new Date('January 1, 2000')), 1);
 	t.is(quarter(new Date('February 1, 2000')), 1);
 	t.is(quarter(new Date('March 1, 2000')), 1);
@@ -22,8 +21,8 @@ test('should get the quarter of the year', function (t) {
 	t.end();
 });
 
-test('should make the `date` argument default to the current time', function (t) {
-	var q = quarter();
+test('should make the `date` argument default to the current time', t => {
+	const q = quarter();
 	t.true(q === 1 || q === 2 || q === 3 || q === 4);
 
 	t.end();
