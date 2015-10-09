@@ -13,7 +13,7 @@ $ npm install --save quarter
 ## Usage
 
 ```js
-var quarter = require('quarter');
+const quarter = require('quarter');
 
 quarter();
 //=> 2
